@@ -1,0 +1,42 @@
+
+*{
+    margin:0px;
+    padding:0px;
+    color:white;
+
+}
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+h1{
+    text-align: center;
+}
+
+pre{
+    font-family: 'Times New Roman';
+    font-size: larger;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color:yellow;
+    font-size:25px;
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+}

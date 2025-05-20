@@ -1,0 +1,49 @@
+div
+{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(24, 125, 153);
+    border-width: 5px;
+    border-color: black; 
+    border-style: solid;
+
+
+    /* with shorthand method to define properties for border;
+    border: 5px solid black; */
+}
+
+h1
+{
+    width: 500px;
+    height: 100px;
+    background-color:yellow;
+    border-color: blue;
+    border-width: 10px;
+
+    /* will align text within the defined width and height; */
+    text-align: center;  
+    border-style: groove;
+
+}
+
+#div1
+{
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 50 dotted blue;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+    /* With shorthand method for padding: Top | Right | Bottom | Left (clockwise)
+    padding:30px 20px 20px 10px  */
+    
+}
+
+button{
+    background-color: chartreuse;
+    display: block;
+}

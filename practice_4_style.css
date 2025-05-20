@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+#navbar{
+    height: 60px;
+    background-color: black;
+    color:white;
+}
+
+button{
+    background-color: #f08804;
+}
+
+#logo{
+    color:yellow;
+    font-size:25px;
+}
+a{
+    margin-right:200px;
+    text-decoration: none;
+}
+
+.contentbox{
+    height: 100px;
+    width: 100px;
+    /* border:2px solid black; */
+    display: inline-block;
+}
+
+
+/*  Q. 2 */
+#content{
+    border:2px solid black;
+
+/* Q. 4 */
+    height: 450px;
+
+}
+
+footer{
+    text-align: center;
+    background-color:#0f1111;
+    color:white;
+   
+}

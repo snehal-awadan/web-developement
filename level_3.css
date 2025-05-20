@@ -1,0 +1,108 @@
+/* relative units in css: */
+
+body{
+    background-image: url("cat.jpg");
+    background-size: cover;
+}
+
+#box1{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    font-size: 10px;
+    
+}
+
+#box2{
+    background-color: yellow;
+    /* % relative units: */
+    width:50%;
+    height:50%;
+    margin:20%;
+    
+    /* em relative units: -> 2em => twice of box1 font-size*/
+    font-size: 2em;  
+    /* it wil becomes 100px=> {font-size(parent) * font-size(child)} * width (em)*/
+    width: 5em;
+}
+
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+    /* position properties: */
+    position:static;
+}
+
+#div4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+    /* position properties: */
+    position: relative;
+    top:20px;
+    left: 20px;
+
+    /*Background  image and size*/
+    background-image: url("cat.jpg");
+    background-size: auto;
+
+}
+
+#div5{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+    /* position properties: */
+    position: absolute;  /* closest ancestor => (here) Body */
+    top:100px;
+    left:500px;
+
+
+}
+
+#div6{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+    /* position properties: */
+    position: fixed;
+    right:10px;
+    /* like footer */
+    top: 0;  
+    width:100%;
+}
+
+#div7{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    z-index: -7; 
+
+    /* position properties: */
+    position:sticky;
+    top: 500px;
+    left:20px;
+
+    /*Background  image and size*/
+    background-image: url("cat.jpg");
+    background-size: contain;
+    /* to stop image from the repeating*/
+    background-repeat: no-repeat; 
+   
+
+}

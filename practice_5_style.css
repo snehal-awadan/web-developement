@@ -1,0 +1,22 @@
+h3{
+    text-align: center;
+}
+
+div{
+    height: 200px;
+    width: 150px;
+    background-image: url("cat.jpg");
+    background-size: cover;
+    text-align: center;
+
+    /*to make div right of the page without moving on scroll*/ 
+    position: fixed;
+    right:0px;
+    top:50px;
+
+}
+
+pre{
+    text-align: justify;
+    font-family: 'Times New Roman';
+}

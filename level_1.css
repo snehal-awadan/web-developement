@@ -1,0 +1,41 @@
+/* This is external styling in CSS.*/
+
+body
+{
+    background-color:blanchedalmond;
+}
+
+h1
+{
+    color: violet;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+h3 
+{
+    text-align: left;
+}
+
+p
+{
+    color:purple;
+    text-align:justify;
+    /* Can apply multiple font-family, if one family fails; */
+    font-family:arial, system-ui,  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;  
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+button
+{
+    color:white;
+    background-color: blue;
+    text-decoration: underline;
+}
+
+a
+{
+    text-decoration: none;
+}
