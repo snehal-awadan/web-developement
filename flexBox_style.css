@@ -1,0 +1,50 @@
+
+body{
+    text-align: center;
+}
+
+
+#container{
+
+    height: 200px;
+    width: 800px;
+    display:inline-block;
+    border: 2px solid black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#box1{
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+}
+
+#box2{
+    background-color: yellow;
+    height: 50px;
+    width: 100px;
+}
+
+#box3{
+    background-color:red;
+    height: 50px;
+    width: 100px;
+    align-self: flex-start;
+}
+
+#box4{
+    background-color: purple;
+    height: 50px;
+    width: 100px;    
+}
+
+#box5{
+    background-color: green;
+    height: 50px;
+    width: 100px;
+}
